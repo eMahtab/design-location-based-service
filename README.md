@@ -31,6 +31,8 @@ WHERE (latitude BETWEEN myLatitude - radius AND myLatitude + radius)
 AND (longitude BETWEEN myLongitude - radius AND myLongitude + radius)         
 ```
 
+# GeoHash
+
 
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
