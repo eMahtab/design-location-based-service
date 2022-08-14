@@ -19,7 +19,7 @@
 
 Since the system is read heavy and the addition of a new place/business in not very frequent.
 This makes a great case for using the read replicas, this will help in offloading the load from primary db.
-All the read traffic can directlt go to any of the read replicas.
+All the read traffic can directly go to any of the read replicas.
 
 
 # References :
