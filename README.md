@@ -22,5 +22,15 @@ This makes a great case for using the read replicas, this will help in offloadin
 All the read traffic can directly go to any of the read replicas.
 
 
+# Table Scan - To find the nearby businesses/places within the radius of user (e.g. 500 meter or 1000 meter)
+
+```sql
+SELECT business_id, latitude, longitude
+FROM business
+WHERE (latitude BETWEEN myLatitude - radius AND myLatitude + radius)
+AND (longitude BETWEEN myLongitude - radius AND myLongitude + radius)         
+```
+
+
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
