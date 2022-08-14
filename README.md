@@ -1,6 +1,6 @@
 # Design Location based service
 
-## Function requirements
+## Functional requirements
 1. User should be able to search for the nearby places
 2. User should be able to see the details of an individual place
 3. User should be able to add a new bussiness in the system
