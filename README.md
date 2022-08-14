@@ -32,7 +32,9 @@ AND (longitude BETWEEN myLongitude - radius AND myLongitude + radius)
 ```
 
 # GeoHash
-A geohash is a convenient way of expressing a location (anywhere in the world) using a short alphanumeric string, with greater precision obtained with longer strings.
+A geohash is a convenient way of expressing a location (anywhere in the world) using a short alphanumeric string, **with greater precision obtained with longer strings.**
+
+https://www.movable-type.co.uk/scripts/geohash.html
 
 !["Geohash"](geohash.PNG?raw=true)
 
