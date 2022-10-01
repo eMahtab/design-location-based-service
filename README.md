@@ -40,7 +40,7 @@ https://www.movable-type.co.uk/scripts/geohash.html
 
 
 ## Choosing geohashing precision for your application
-
+Selecting the correct geohash length is important for the efficiency of the search.
 
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
