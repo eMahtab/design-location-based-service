@@ -39,6 +39,9 @@ https://www.movable-type.co.uk/scripts/geohash.html
 !["Geohash"](geohash.PNG?raw=true)
 
 
+## Choosing geohashing precision for your application
+
+
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
 
