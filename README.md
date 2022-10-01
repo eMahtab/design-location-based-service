@@ -45,12 +45,19 @@ Selecting the correct geohash length is important for the efficiency of the sear
 ## Too Precise : Too much Zoom In
 
 If the geohash is too precise, meaning the cell is small, the search radius may include many more cells:
+
 ![Too Precise](too-precise.png?raw=true)
 
 ## Too Coarse : Too much Zoom Out
 
 If the geohash is too coarse, meaning the cell is too large, the query may return too many results for a single cell for the search to be efficient. You may also find a large number of results in those cells are not within the search radius:
+
 ![Too Coarse](too-coarse.png?raw=true)
+
+## Better :
+In the below diagram, the search radius overlaps nine distinct geohash cells. The query returns all location pins within the cells but only the green pins are relevant to the radial search. The gray pins are outside of the overlapping geohash cells so are immediately discarded in the query:
+
+![Better](better.png?raw=true)
 
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
