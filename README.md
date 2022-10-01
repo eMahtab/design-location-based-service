@@ -41,3 +41,5 @@ https://www.movable-type.co.uk/scripts/geohash.html
 
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
+
+Implementing Geohashing at scale in Serverless applications https://aws.amazon.com/blogs/compute/implementing-geohashing-at-scale-in-serverless-web-applications/
