@@ -42,6 +42,16 @@ https://www.movable-type.co.uk/scripts/geohash.html
 ## Choosing geohashing precision for your application
 Selecting the correct geohash length is important for the efficiency of the search.
 
+## Too Precise : Too much Zoom In
+
+If the geohash is too precise, meaning the cell is small, the search radius may include many more cells:
+![Too Precise](too-precise.png?raw=true)
+
+## Too Coarse : Too much Zoom Out
+
+If the geohash is too coarse, meaning the cell is too large, the query may return too many results for a single cell for the search to be efficient. You may also find a large number of results in those cells are not within the search radius:
+![Too Coarse](too-coarse.png?raw=true)
+
 # References :
 https://www.youtube.com/watch?v=M4lR_Va97cQ (Very good)
 
